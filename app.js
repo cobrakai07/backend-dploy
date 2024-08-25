@@ -17,7 +17,7 @@ dotenv.config({
 
 app.use(
   cors({
-    origin: ["*"],
+    origin: ["https://stellular-bombolone-0282eb.netlify.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
